@@ -1,50 +1,50 @@
-# Spray Light - The World Is Your Canvas
+# Spray Light - O Mundo É Sua Tela
 
-**Spray Light**, watch your graffiti come to life with **Augmented Reality**!
+**Spray Light**, veja seu grafite ganhar vida com **Realidade Aumentada**!
 [![Group 15](https://github.com/user-attachments/assets/cb137d95-99d7-4ad9-8c25-8ffd71a8aa03)](https://apps.apple.com/br/app/spray-light/id6737986180?l=en-GB)
 
-We live in a space that is increasingly being taken over by tall buildings, gray skies, and crowds walking back and forth, where all these people are always busy in some kind of “**autopilot**.”
+Vivemos em um espaço que está cada vez mais sendo tomado por prédios altos, céus cinzas e multidões andando de um lado para o outro, onde todas essas pessoas estão sempre ocupadas em algum tipo de "**piloto automático**."
 
-In the midst of all this monotony, there is _graffiti_. It is an art meant to be seen and appreciated, but many graffiti artists struggle to gain recognition and end up being viewed negatively by society, despite having the simple and beautiful role of brightening someone’s day.
+No meio de toda essa monotonia, existe o _grafite_. É uma arte feita para ser vista e apreciada, mas muitos grafiteiros lutam para ganhar reconhecimento e acabam sendo vistos negativamente pela sociedade, apesar de terem o papel simples e bonito de alegrar o dia de alguém.
 
-So, in an effort to redefine how society sees _graffiti_ and break the “_autopilot_” routine, we created **Spray Light**.
+Então, em um esforço para redefinir como a sociedade vê o _grafite_ e quebrar a rotina do "_piloto automático_", criamos o **Spray Light**.
 
-## What is Spray Light?
+## O que é Spray Light?
 
-With **Spray Light**, you can spread _graffiti_ across the city’s walls, making it possible to view them using **Augmented Reality**. Each graffiti you place leaves a **pin** on the **map** to help you remember where you posted it. When you get close and activate AR mode, you’ll be able to see them.
+Com o **Spray Light**, você pode espalhar _grafite_ pelos muros da cidade, tornando possível visualizá-los usando **Realidade Aumentada**. Cada grafite que você coloca deixa um **marcador** no **mapa** para ajudá-lo a lembrar onde você postou. Quando você se aproximar e ativar o modo AR, você poderá vê-los.
 
-With this, we aim to:
-- **Change** the marginalized perception society has of _graffiti_ 
-- **Encourage** the emergence of new graffiti artists, initially showcasing their art in **virtual form**!
+Com isso, nosso objetivo é:
+- **Mudar** a percepção marginalizada que a sociedade tem do _grafite_ 
+- **Encorajar** o surgimento de novos grafiteiros, inicialmente apresentando sua arte em **forma virtual**!
 
-[**Spray Light is available for download on the App Store!**](https://apps.apple.com/br/app/spray-light/id6737986180)
-
----
-
-## Technologies Used
-
-- **SwiftUI**: For the development of the overall app UI
-- **RealityKit & ARKit**: For managing processes involving the entire Augmented Reality dynamic, such as posting, translation, object rotation, creation of new entities, and other tasks.
-- **SwiftData & DTO**: To save graffiti locally and use Data Transfer Objects (DTO) for secure data transfer via the app using Sendables
-- **UIKit**: Used to initiate ARView in UIViewRepresentables
-- **TipKit**: To enhance the user experience and provide guidance on some features during app usage
----
-## Test Versions (Not Available in the MVP)
-
-- **CloudKit**: Cloud-based ARWorldMap sharing tests
+[**Spray Light está disponível para download na App Store!**](https://apps.apple.com/br/app/spray-light/id6737986180)
 
 ---
 
-## Development Skills
+## Tecnologias Utilizadas
 
-- MVVM Architecture
+- **SwiftUI**: Para o desenvolvimento da UI geral do app
+- **RealityKit & ARKit**: Para gerenciar processos envolvendo toda a dinâmica de Realidade Aumentada, como postagem, translação, rotação de objetos, criação de novas entidades e outras tarefas.
+- **SwiftData & DTO**: Para salvar grafites localmente e usar Data Transfer Objects (DTO) para transferência segura de dados via app usando Sendables
+- **UIKit**: Usado para iniciar ARView em UIViewRepresentables
+- **TipKit**: Para melhorar a experiência do usuário e fornecer orientação sobre alguns recursos durante o uso do app
+---
+## Versões de Teste (Não Disponíveis no MVP)
+
+- **CloudKit**: Testes de compartilhamento de ARWorldMap baseado em nuvem
+
+---
+
+## Habilidades de Desenvolvimento
+
+- Arquitetura MVVM
 - SwiftUI
-- ECS for ARKit Entities
+- ECS para Entidades ARKit
 - Conventional Commits (Git)
 
 ---
 
-### Authors
+### Autores
 
 - [Jaide Fernando de Carvalho Zardin](https://github.com/JaideZrdn)
 - [Pedro Larry](https://github.com/larry4us)
