@@ -21,14 +21,35 @@ Com isso, nosso objetivo é:
 
 ---
 
+## Minha Contribuição no Projeto
+
+Como desenvolvedor, fui responsável por diversos aspectos técnicos e criativos do projeto:
+
+### Desenvolvimento Técnico
+- **Persistência de Dados**: Implementação do sistema de salvamento local utilizando **SwiftData**, além de testes com **CloudKit** para sincronização em nuvem (funcionalidade não incluída na versão de produção)
+- **Interfaces**: Desenvolvimento das interfaces do aplicativo utilizando **SwiftUI**, focando em experiência do usuário e responsividade
+- **Sistema de Mapas**: Implementação do sistema de **MapPins** utilizando **MapKit** e **CoreLocation** para exibir marcadores no mapa quando grafites são postados em localizações específicas
+- **Realidade Aumentada**: Testes e implementação de funcionalidades do **ARKit**, incluindo experimentação com **ARWorldMap** para persistência de objetos AR no ambiente físico
+- **Arquitetura**: Estruturação da arquitetura do projeto seguindo o padrão **MVVM**, garantindo manutenibilidade e escalabilidade do código
+
+### Ideação e Pesquisa
+- Participação ativa na **ideação do projeto** desde o conceito inicial
+- Condução de **pesquisas** para identificação e validação da problemática relacionada à percepção social do grafite
+- Colaboração no desenvolvimento da proposta de solução e definição de funcionalidades
+
+---
+
 ## Tecnologias Utilizadas
 
 - **SwiftUI**: Para o desenvolvimento da UI geral do app
-- **RealityKit & ARKit**: Para gerenciar processos envolvendo toda a dinâmica de Realidade Aumentada, como postagem, translação, rotação de objetos, criação de novas entidades e outras tarefas.
+- **RealityKit & ARKit**: Para gerenciar processos envolvendo toda a dinâmica de Realidade Aumentada, como postagem, translação, rotação de objetos, criação de novas entidades e outras tarefas
+- **MapKit & CoreLocation**: Para exibição de mapas e gerenciamento de localização geográfica, permitindo a criação de marcadores nos locais onde grafites foram postados
 - **SwiftData & DTO**: Para salvar grafites localmente e usar Data Transfer Objects (DTO) para transferência segura de dados via app usando Sendables
 - **UIKit**: Usado para iniciar ARView em UIViewRepresentables
 - **TipKit**: Para melhorar a experiência do usuário e fornecer orientação sobre alguns recursos durante o uso do app
+
 ---
+
 ## Versões de Teste (Não Disponíveis no MVP)
 
 - **CloudKit**: Testes de compartilhamento de ARWorldMap baseado em nuvem
