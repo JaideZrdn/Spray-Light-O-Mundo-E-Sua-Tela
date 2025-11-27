@@ -98,4 +98,3 @@ No meio de toda essa monotonia, existe o _grafite_. É uma arte feita para ser v
 
 ---
 
-**Spray Light - Transformando cidades em galerias de arte virtual 🎨✨**
